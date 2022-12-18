@@ -1,7 +1,19 @@
-img {
-  border-radius: 80%;
+.profilePicture {
+  border-radius: 90%;
   width: 200px;
+}
+
+.companyLogo {
+  border-radius: 90%;
+  width: 100px;
 }
 .contactDetails {
   border-collapse: collapse;
+}
+.regionBorder {
+  border: 1px solid rgb(128, 128, 128);
+  size: 3;
+}
+.pastExperience {
+  display: inline;
 }
