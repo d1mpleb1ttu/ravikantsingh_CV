@@ -1,42 +1,62 @@
-body{
+body {
   background-color: powderblue;
 }
 
+h2 {
+  color: #3a4f7a;
+}
+
+h3 {
+  color: #227c70;
+}
+h4 {
+  color: #439a97;
+}
+
+h5 {
+  color: black;
+}
+
+#certification {
+  color: #3a4f7a;
+  text-shadow: #227c70;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: groove;
+  border-width: 3px;
+  width: 95%;
+}
 
 .profilePicture {
   border-radius: 90%;
   width: 200px;
 }
 
-.companyLogo {
-  border-radius: 90%;
-  width: 100px;
-}
 .contactDetails {
   border-collapse: collapse;
 }
-.regionBorder {
-  border: 1px solid rgb(128, 128, 128);
-  size: 3;
-}
+
 .pastExperience {
   display: inline;
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
   border-bottom: 1px dotted black;
+  display: inline-block;
+  position: relative;
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
+  border-radius: 6px;
   background-color: black;
   color: #fff;
-  text-align: center;
-  border-radius: 6px;
   padding: 5px 0;
+  visibility: hidden;
+  text-align: center;
+  width: 120px;
 
   /* Position the tooltip */
   position: absolute;
