@@ -9,6 +9,7 @@ h2 {
 h3 {
   color: #227c70;
 }
+
 h4 {
   color: #439a97;
 }
@@ -31,8 +32,12 @@ hr {
 }
 
 .profilePicture {
-  border-radius: 90%;
-  width: 200px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width: 150px;
+  height: 180px;
 }
 
 .contactDetails {
